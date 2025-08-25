@@ -1,0 +1,10 @@
+2025-08-21 15:00:39,187 | INFO | app.main | Iniciando carga...
+2025-08-21 15:00:39,448 | INFO | app.main | Carregando BCI de: data/bci.json (chunk=5000)
+2025-08-21 15:00:39,449 | ERROR | app.main | Falha na execução: Arquivo não encontrado: data/bci.json
+Traceback (most recent call last):
+  File "/home/lucas-ti/Área de Trabalho/aux-clevelandia/app/main.py", line 195, in main
+    lidos, upsertados = bci_loader(
+  File "/home/lucas-ti/Área de Trabalho/aux-clevelandia/app/bci_loader.py", line 103, in load_bci_json
+    raise FileNotFoundError(f"Arquivo não encontrado: {path}")
+FileNotFoundError: Arquivo não encontrado: data/bci.json
+2025-08-21 15:00:39,449 | INFO | app.main | Finalizado em 0.26s.

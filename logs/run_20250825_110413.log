@@ -1,0 +1,24 @@
+2025-08-25 11:04:13,850 | INFO | app.main | Iniciando carga...
+2025-08-25 11:04:13,850 | INFO | app.main | Carregando cadastros de: data/bairros.json
+2025-08-25 11:04:13,851 | ERROR | app.main | Falha na execução: Error processing data/bairros.json: check_schema() missing 1 required positional argument: 'schema'
+Traceback (most recent call last):
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader.py", line 90, in processar_cadastros
+    loader = _determine_loader(data, json_path)
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader.py", line 51, in _determine_loader
+    processar_cadastros_from_bairros(json_path)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader_municipio.py", line 128, in processar_cadastros_from_bairros
+    check_schema(sess)
+    ~~~~~~~~~~~~^^^^^^
+TypeError: check_schema() missing 1 required positional argument: 'schema'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\main.py", line 199, in main
+    cadastro_loader(session, args.json)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader.py", line 103, in processar_cadastros
+    raise ValueError(f"Error processing {json_path}: {str(e)}")
+ValueError: Error processing data/bairros.json: check_schema() missing 1 required positional argument: 'schema'
+2025-08-25 11:04:13,854 | INFO | app.main | Finalizado em 0.00s.

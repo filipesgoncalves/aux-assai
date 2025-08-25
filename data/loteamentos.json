@@ -1,0 +1,218 @@
+{
+  "offset": 0,
+  "limit": 20,
+  "total": 6,
+  "hasNext": false,
+  "content": [
+    {
+      "id": 74297,
+      "codigo": 6,
+      "nome": "0015",
+      "matriculaImobiliaria": null,
+      "dhRegistroImovel": null,
+      "nroDecretoAprovacao": null,
+      "nroProcessoAprovacao": null,
+      "distrito": null,
+      "bairro": {
+        "id": 948753,
+        "codigo": 30,
+        "nome": "JARDIM MORUMBI."
+      },
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      }
+    },
+    {
+      "id": 102377,
+      "codigo": 7,
+      "nome": "12",
+      "matriculaImobiliaria": null,
+      "dhRegistroImovel": null,
+      "nroDecretoAprovacao": null,
+      "nroProcessoAprovacao": null,
+      "distrito": null,
+      "bairro": {
+        "id": 2202756,
+        "codigo": null,
+        "nome": "Plano Diretor Sul"
+      },
+      "municipio": {
+        "id": 3492,
+        "nome": "Palmas",
+        "estado": {
+          "id": 27,
+          "nome": "Tocantins",
+          "uf": "TO",
+          "codigoIbge": 17,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 1721000,
+        "codigoSIAFI": 989733
+      }
+    },
+    {
+      "id": 66817,
+      "codigo": 4,
+      "nome": "CONGONHAS",
+      "matriculaImobiliaria": null,
+      "dhRegistroImovel": null,
+      "nroDecretoAprovacao": null,
+      "nroProcessoAprovacao": null,
+      "distrito": null,
+      "bairro": {
+        "id": 1080528,
+        "codigo": 3082,
+        "nome": "DIST CONGONHAS"
+      },
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      }
+    },
+    {
+      "id": 66777,
+      "codigo": 2,
+      "nome": "CORNÉLIO PROCÓPIO",
+      "matriculaImobiliaria": null,
+      "dhRegistroImovel": null,
+      "nroDecretoAprovacao": null,
+      "nroProcessoAprovacao": null,
+      "distrito": null,
+      "bairro": {
+        "id": 948796,
+        "codigo": 108,
+        "nome": "JARDIM PANORAMA II."
+      },
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      }
+    },
+    {
+      "id": 66837,
+      "codigo": 5,
+      "nome": "JURUA",
+      "matriculaImobiliaria": null,
+      "dhRegistroImovel": null,
+      "nroDecretoAprovacao": null,
+      "nroProcessoAprovacao": null,
+      "distrito": null,
+      "bairro": {
+        "id": 1080056,
+        "codigo": 2680,
+        "nome": "JARDIM AGARI"
+      },
+      "municipio": {
+        "id": 2758,
+        "nome": "Londrina",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4113700,
+        "codigoSIAFI": 987667
+      }
+    },
+    {
+      "id": 66757,
+      "codigo": 1,
+      "nome": "RUA LUIZ OLIVEIRA ",
+      "matriculaImobiliaria": null,
+      "dhRegistroImovel": null,
+      "nroDecretoAprovacao": null,
+      "nroProcessoAprovacao": null,
+      "distrito": null,
+      "bairro": {
+        "id": 2356418,
+        "codigo": null,
+        "nome": "Centro"
+      },
+      "municipio": {
+        "id": 2913,
+        "nome": "Mariana",
+        "estado": {
+          "id": 13,
+          "nome": "Minas Gerais",
+          "uf": "MG",
+          "codigoIbge": 31,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 3140001,
+        "codigoSIAFI": 984799
+      }
+    }
+  ]
+}

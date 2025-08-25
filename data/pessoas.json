@@ -1,0 +1,1257 @@
+{
+  "offset": 0,
+  "limit": 20,
+  "total": 21,
+  "hasNext": true,
+  "content": [
+    {
+      "id": 34716536,
+      "codigo": 1,
+      "nome": "NÃO CADASTRADO",
+      "nomeSemEspolio": "NÃO CADASTRADO",
+      "cpfCnpj": null,
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716536,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": null,
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": null,
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Desativado",
+        "valor": "DESATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua DAS PAINEIRAS, 183 - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.578",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2021-12-22T17:10:46.578"
+    },
+    {
+      "id": 34716537,
+      "codigo": 2,
+      "nome": "NÃO CADASTRADO",
+      "nomeSemEspolio": "NÃO CADASTRADO",
+      "cpfCnpj": null,
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716537,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": null,
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": null,
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Desativado",
+        "valor": "DESATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua OLIMPIA CANDIDA EVANGELISTA., S/N, 9794 9255 - JARDIM CRISTO REI. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.603",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2021-12-22T17:10:46.603"
+    },
+    {
+      "id": 34716538,
+      "codigo": 3,
+      "nome": "18º DISTRITO SANITÁRIO DE CORNÉLIO PROCÓPIO",
+      "nomeSemEspolio": "18º DISTRITO SANITÁRIO DE CORNÉLIO PROCÓPIO",
+      "cpfCnpj": null,
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716538,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": null,
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": null,
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua MICHEL PEREZ HADDAD., S/N - CONJUNTO ROSARIO PITELLI. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.609",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2021-12-22T17:10:46.609"
+    },
+    {
+      "id": 34716539,
+      "codigo": 4,
+      "nome": "A A ROCHA",
+      "nomeSemEspolio": "A A ROCHA",
+      "cpfCnpj": null,
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716539,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": null,
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": null,
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua DO COMÉRCIO, S/N, 15262 33 - DISTRITO DE CONGONHAS. - DISTRITO -  CONGONHAS. - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.615",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2021-12-22T17:10:46.615"
+    },
+    {
+      "id": 34716540,
+      "codigo": 5,
+      "nome": "A. A.-MOREIRA ARTEFATOS DE COURO",
+      "nomeSemEspolio": "A. A.-MOREIRA ARTEFATOS DE COURO",
+      "cpfCnpj": "02212193000170",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": null,
+      "pessoaFisicaDocumentos": null,
+      "pessoaJuridica": {
+        "id": 34716540,
+        "responsavel": null,
+        "isentoInscricao": null,
+        "inscricaoEstadual": null,
+        "orgaoRegistro": null,
+        "dtRegistro": null,
+        "nroRegistro": null,
+        "porteEmpresa": {
+          "descricao": "Microempresa",
+          "valor": "MICROEMPRESA"
+        },
+        "optanteSimples": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "optanteMei": null,
+        "qualificacao": null,
+        "naturezaJuridica": null
+      },
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Jurídica",
+        "valor": "JURIDICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua NEUSA PELEGRINI., 382 - CONJUNTO  FORTUNATO SIBIM. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.621",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2021-12-22T17:10:46.621"
+    },
+    {
+      "id": 34716541,
+      "codigo": 6,
+      "nome": "ABEDENEGO AZULMIRO DA SILVA",
+      "nomeSemEspolio": "ABEDENEGO AZULMIRO DA SILVA",
+      "cpfCnpj": "55953450982",
+      "inscricaoMunicipal": "3382",
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716541,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": null,
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": null,
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua DAS PAINEIRAS, 415, 12189 - JARDIM FIGUEIRA. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.627",
+      "email": null,
+      "telefone": "4396284049",
+      "dhOperacao": "2021-12-22T17:10:46.627"
+    },
+    {
+      "id": 34716542,
+      "codigo": 7,
+      "nome": "ABEL DE VILHENA FERREIRA",
+      "nomeSemEspolio": "ABEL DE VILHENA FERREIRA",
+      "cpfCnpj": "09836632700",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716542,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716542,
+        "nroRg": null,
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Avenida MINAS GERAIS, 933 - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.633",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2022-02-04T09:06:12.118"
+    },
+    {
+      "id": 34716543,
+      "codigo": 8,
+      "nome": "(ESPÓLIO) ABEL DIAS SIMÃO",
+      "nomeSemEspolio": "ABEL DIAS SIMÃO",
+      "cpfCnpj": "12036277934",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716543,
+        "pais": {
+          "id": 29,
+          "nome": "Brasil",
+          "sigla2C": "BR",
+          "sigla3C": "BRA",
+          "sigla3D": "076",
+          "codigoBacen": "1058"
+        },
+        "municipio": null,
+        "naturalizado": null,
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": "1932-01-23",
+        "dtObito": "2021-12-12"
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716543,
+        "nroRg": "3.156.253/SP",
+        "orgaoEmissorRg": "DOPS",
+        "dtEmissaoRg": "1973-03-28",
+        "estadoRg": {
+          "id": 26,
+          "nome": "São Paulo",
+          "uf": "SP",
+          "codigoIbge": 35,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Avenida GETULIO VARGAS., 276 - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.638",
+      "email": null,
+      "telefone": "4335232401",
+      "dhOperacao": "2022-02-01T15:45:34.329"
+    },
+    {
+      "id": 34716544,
+      "codigo": 9,
+      "nome": "ABEL GONÇALVES DA SILVA",
+      "nomeSemEspolio": "ABEL GONÇALVES DA SILVA",
+      "cpfCnpj": "23934310982",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716544,
+        "pais": null,
+        "municipio": {
+          "id": 1347,
+          "nome": "Cornélio Procópio",
+          "estado": {
+            "id": 14,
+            "nome": "Paraná",
+            "uf": "PR",
+            "codigoIbge": 41,
+            "pais": {
+              "id": 29,
+              "nome": "Brasil",
+              "sigla2C": "BR",
+              "sigla3C": "BRA",
+              "sigla3D": "076",
+              "codigoBacen": "1058"
+            }
+          },
+          "codigoIBGE": 4106407,
+          "codigoSIAFI": 987525
+        },
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Casado",
+          "valor": "CASADO"
+        },
+        "dtNascimento": "1943-02-16",
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716544,
+        "nroRg": null,
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua TIBAGI, 50 - INDEPENCENCIA - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.676",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2022-02-04T09:53:36.85"
+    },
+    {
+      "id": 34716545,
+      "codigo": 10,
+      "nome": "ALBEL ZEFERINO BERTO",
+      "nomeSemEspolio": "ALBEL ZEFERINO BERTO",
+      "cpfCnpj": "46600752904",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716545,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": null,
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716545,
+        "nroRg": "1.638.443",
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua JOSÉ ALFREDO DE CARVALHO., 598, 7517 2957 - VILA INDEPENDÊNCIA. - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.683",
+      "email": null,
+      "telefone": "4335231100",
+      "dhOperacao": "2021-12-22T17:10:46.683"
+    },
+    {
+      "id": 34716546,
+      "codigo": 11,
+      "nome": "ABEMIR COLONHEZI",
+      "nomeSemEspolio": "ABEMIR COLONHEZI",
+      "cpfCnpj": "58701273949",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716546,
+        "pais": null,
+        "municipio": {
+          "id": 1347,
+          "nome": "Cornélio Procópio",
+          "estado": {
+            "id": 14,
+            "nome": "Paraná",
+            "uf": "PR",
+            "codigoIbge": 41,
+            "pais": {
+              "id": 29,
+              "nome": "Brasil",
+              "sigla2C": "BR",
+              "sigla3C": "BRA",
+              "sigla3D": "076",
+              "codigoBacen": "1058"
+            }
+          },
+          "codigoIBGE": 4106407,
+          "codigoSIAFI": 987525
+        },
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": "1967-03-10",
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716546,
+        "nroRg": null,
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua UIRAPURU, 133 - JARDIM NOVA ESPERANÇA. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.689",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2022-02-04T09:53:37.104"
+    },
+    {
+      "id": 34716547,
+      "codigo": 13,
+      "nome": "ABILIO COSTALONGA",
+      "nomeSemEspolio": "ABILIO COSTALONGA",
+      "cpfCnpj": "12037141904",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716547,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716547,
+        "nroRg": null,
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua ROCHA POMBO., 1 - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.694",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2022-02-04T09:53:37.46"
+    },
+    {
+      "id": 34716548,
+      "codigo": 14,
+      "nome": "ABILIO GASPAROTO",
+      "nomeSemEspolio": "ABILIO GASPAROTO",
+      "cpfCnpj": "12010022904",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716548,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": "1937-06-01",
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716548,
+        "nroRg": null,
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua GUARAPUAVA., 120 - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.699",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2022-02-04T09:06:13.588"
+    },
+    {
+      "id": 34716549,
+      "codigo": 15,
+      "nome": "(ESPÓLIO) ABILIO MODOS",
+      "nomeSemEspolio": "ABILIO MODOS",
+      "cpfCnpj": "04209788953",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716549,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": "2013-07-16",
+        "dtObito": "2013-07-16"
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716549,
+        "nroRg": "2169159/PR",
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua PAULA GOMES., 760 - VILA MOREIRA. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.704",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2022-02-04T09:06:12.963"
+    },
+    {
+      "id": 34716550,
+      "codigo": 16,
+      "nome": "ABILIO PELIÇARO",
+      "nomeSemEspolio": "ABILIO PELIÇARO",
+      "cpfCnpj": "02365880959",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716550,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716550,
+        "nroRg": null,
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua ANTONIO PAIVA JUNIOR., 51 - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.709",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2022-02-04T09:06:15.571"
+    },
+    {
+      "id": 34716551,
+      "codigo": 17,
+      "nome": "(ESPÓLIO) ABILIO RIVAROLLI",
+      "nomeSemEspolio": "ABILIO RIVAROLLI",
+      "cpfCnpj": "20587341904",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716551,
+        "pais": {
+          "id": 29,
+          "nome": "Brasil",
+          "sigla2C": "BR",
+          "sigla3C": "BRA",
+          "sigla3D": "076",
+          "codigoBacen": "1058"
+        },
+        "municipio": {
+          "id": 1347,
+          "nome": "Cornélio Procópio",
+          "estado": {
+            "id": 14,
+            "nome": "Paraná",
+            "uf": "PR",
+            "codigoIbge": 41,
+            "pais": {
+              "id": 29,
+              "nome": "Brasil",
+              "sigla2C": "BR",
+              "sigla3C": "BRA",
+              "sigla3D": "076",
+              "codigoBacen": "1058"
+            }
+          },
+          "codigoIBGE": 4106407,
+          "codigoSIAFI": 987525
+        },
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Casado",
+          "valor": "CASADO"
+        },
+        "dtNascimento": "1954-04-02",
+        "dtObito": "2021-01-18"
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716551,
+        "nroRg": null,
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua UIRAPURU, 183 - CONJUNTO NOVA ESPERANÇA - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.716",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2022-02-04T09:53:38.227"
+    },
+    {
+      "id": 34716552,
+      "codigo": 18,
+      "nome": "ABIMAEL SANTIAGO",
+      "nomeSemEspolio": "ABIMAEL SANTIAGO",
+      "cpfCnpj": "16836928968",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716552,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": null,
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": null,
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua ZULMIRO BENEDITO DA SILVA, 19, 10355 990 - JARDIM PRIMAVERA. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.721",
+      "email": null,
+      "telefone": "4335235702",
+      "dhOperacao": "2021-12-22T17:10:46.721"
+    },
+    {
+      "id": 34716553,
+      "codigo": 19,
+      "nome": "ABNER DUTRA",
+      "nomeSemEspolio": "ABNER DUTRA",
+      "cpfCnpj": "23472383968",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716553,
+        "pais": null,
+        "municipio": {
+          "id": 374,
+          "nome": "Assis",
+          "estado": {
+            "id": 26,
+            "nome": "São Paulo",
+            "uf": "SP",
+            "codigoIbge": 35,
+            "pais": {
+              "id": 29,
+              "nome": "Brasil",
+              "sigla2C": "BR",
+              "sigla3C": "BRA",
+              "sigla3D": "076",
+              "codigoBacen": "1058"
+            }
+          },
+          "codigoIBGE": 3504008,
+          "codigoSIAFI": 986179
+        },
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Casado",
+          "valor": "CASADO"
+        },
+        "dtNascimento": "1950-08-14",
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716553,
+        "nroRg": null,
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua OTAVIO FERNANDES DA CRUZ, 57 - JARDIM VALE DO SOL 2 - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.727",
+      "email": null,
+      "telefone": "4335236668",
+      "dhOperacao": "2022-02-04T09:06:15.82"
+    },
+    {
+      "id": 34716554,
+      "codigo": 20,
+      "nome": "(ESPÓLIO) ABRAHÃO BIROCHI",
+      "nomeSemEspolio": "ABRAHÃO BIROCHI",
+      "cpfCnpj": "01201433991",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": null,
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716554,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": "1927-09-26",
+        "dtObito": "1999-10-16"
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716554,
+        "nroRg": "1,710,436-5",
+        "orgaoEmissorRg": "SSP",
+        "dtEmissaoRg": null,
+        "estadoRg": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Rua RIO GRANDE DO NORTE., 135 - CENTRO. - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.731",
+      "email": null,
+      "telefone": null,
+      "dhOperacao": "2022-02-04T09:53:39.394"
+    },
+    {
+      "id": 34716555,
+      "codigo": 22,
+      "nome": "ABRÃO ABIB ANDRAUS",
+      "nomeSemEspolio": "ABRÃO ABIB ANDRAUS",
+      "cpfCnpj": "00299626920",
+      "inscricaoMunicipal": null,
+      "nomeFantasia": "686.900.889-20 CPF DE MICHEL HADDAD cpf de nadim Abrão andra",
+      "contribuinteEstrangeiro": null,
+      "pessoaFisica": {
+        "id": 34716555,
+        "pais": null,
+        "municipio": null,
+        "naturalizado": {
+          "descricao": "Não",
+          "valor": "NAO"
+        },
+        "sexo": {
+          "descricao": "Masculino",
+          "valor": "MASCULINO"
+        },
+        "estadoCivil": {
+          "descricao": "Solteiro",
+          "valor": "SOLTEIRO"
+        },
+        "dtNascimento": null,
+        "dtObito": null
+      },
+      "pessoaFisicaDocumentos": {
+        "id": 34716555,
+        "nroRg": null,
+        "orgaoEmissorRg": null,
+        "dtEmissaoRg": null,
+        "estadoRg": null,
+        "nroRic": null,
+        "orgaoEmissorRic": null,
+        "dtEmissaoRic": null,
+        "estadoRic": null,
+        "pisPasep": null,
+        "dtEmissaoPisPasep": null
+      },
+      "pessoaJuridica": null,
+      "site": null,
+      "situacao": {
+        "descricao": "Ativo",
+        "valor": "ATIVADO"
+      },
+      "tipoPessoa": {
+        "descricao": "Física",
+        "valor": "FISICA"
+      },
+      "optanteSimplesNacional": {
+        "descricao": "Não",
+        "valor": "NAO"
+      },
+      "enderecoPrincipalFormatado": "Avenida AVENIDA XV DE NOVEMBRO, 576, CALCADAO - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000, Cornélio Procópio/PR",
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T17:10:46.775",
+      "email": null,
+      "telefone": "4335237015",
+      "dhOperacao": "2022-02-04T09:06:15.045"
+    }
+  ]
+}

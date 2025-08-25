@@ -1,0 +1,4 @@
+2025-08-21 15:09:33,819 | INFO | app.main | Iniciando carga...
+2025-08-21 15:09:34,099 | INFO | app.main | Carregando BCI de: data/bci.json (chunk=5000)
+2025-08-21 15:09:36,676 | ERROR | app.main | Execução interrompida pelo usuário (CTRL+C).
+2025-08-21 15:09:36,676 | INFO | app.main | Finalizado em 2.86s.

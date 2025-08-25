@@ -1,0 +1,754 @@
+{
+  "offset": 0,
+  "limit": 20,
+  "total": 21,
+  "hasNext": true,
+  "content": [
+    {
+      "id": 7050871,
+      "codigo": 615,
+      "nome": "-",
+      "tipoLogradouroDescricao": "Avenida",
+      "tipoLogradouroAbreviatura": "AV",
+      "cep": "86300000",
+      "bairros": [
+        {
+          "id": 948687,
+          "nome": "CENTRO.",
+          "codigo": 230
+        }
+      ],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7302412,
+      "codigo": 760581,
+      "nome": "-",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": "86300000",
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": null,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 9638033,
+      "codigo": 764770,
+      "nome": "-",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": "86490000",
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": null,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 4142,
+        "nome": "Ribeirão do Pinhal",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4121901,
+        "codigoSIAFI": 987815
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 9638151,
+      "codigo": 764771,
+      "nome": "-",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": "87045010",
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": null,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 2924,
+        "nome": "Maringá",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4115200,
+        "codigoSIAFI": 987691
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 9162632,
+      "codigo": 764684,
+      "nome": ".",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": "87112515",
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": null,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 4556,
+        "nome": "Sarandi",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4126256,
+        "codigoSIAFI": 988461
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052117,
+      "codigo": 1972,
+      "nome": "01",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052118,
+      "codigo": 1974,
+      "nome": "02",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052073,
+      "codigo": 1973,
+      "nome": "02",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": "86430000",
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 4504,
+        "nome": "Santo Antônio da Platina",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4124103,
+        "codigoSIAFI": 987859
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 14734484,
+      "codigo": 765964,
+      "nome": "02",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": "37600000",
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": null,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 891,
+        "nome": "Cambuí",
+        "estado": {
+          "id": 13,
+          "nome": "Minas Gerais",
+          "uf": "MG",
+          "codigoIbge": 31,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 3110608,
+        "codigoSIAFI": 984211
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052119,
+      "codigo": 1975,
+      "nome": "04",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": "86300000",
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052120,
+      "codigo": 1976,
+      "nome": "05",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052121,
+      "codigo": 1977,
+      "nome": "06",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052683,
+      "codigo": 3655,
+      "nome": "06 DE JUNHO",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 4647,
+        "nome": "Sertanópolis",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4126504,
+        "codigoSIAFI": 987905
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052684,
+      "codigo": 3656,
+      "nome": "06 DE JUNHO, 698 JD. REBELO II",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 4647,
+        "nome": "Sertanópolis",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4126504,
+        "codigoSIAFI": 987905
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7301199,
+      "codigo": 759852,
+      "nome": "07 DE SETEMBRO",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": null,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7051199,
+      "codigo": 769,
+      "nome": "07 DE SETEMBRO",
+      "tipoLogradouroDescricao": "Avenida",
+      "tipoLogradouroAbreviatura": "AV",
+      "cep": "86300000",
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052685,
+      "codigo": 3657,
+      "nome": "07 DE SETEMBRO",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 4646,
+        "nome": "Sertaneja",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4126405,
+        "codigoSIAFI": 987903
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7054193,
+      "codigo": 4226,
+      "nome": "07 DE SETEMBRO",
+      "tipoLogradouroDescricao": "Avenida",
+      "tipoLogradouroAbreviatura": "AV",
+      "cep": "86300000",
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 4646,
+        "nome": "Sertaneja",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4126405,
+        "codigoSIAFI": 987903
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052122,
+      "codigo": 1978,
+      "nome": "08",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "id": 7052660,
+      "codigo": 3658,
+      "nome": "09",
+      "tipoLogradouroDescricao": "Rua",
+      "tipoLogradouroAbreviatura": "R",
+      "cep": null,
+      "bairros": [],
+      "ceps": [],
+      "epigrafe": null,
+      "extensao": 0.0,
+      "lei": null,
+      "zonaFiscal": null,
+      "municipio": {
+        "id": 1347,
+        "nome": "Cornélio Procópio",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4106407,
+        "codigoSIAFI": 987525
+      },
+      "denominacaoAnterior": null,
+      "latitude": null,
+      "longitude": null
+    }
+  ]
+}

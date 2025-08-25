@@ -1,0 +1,2324 @@
+{
+  "offset": 0,
+  "limit": 20,
+  "total": 21,
+  "hasNext": true,
+  "content": [
+    {
+      "id": 12731241,
+      "codigo": 11974,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "11974",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "1784 5564",
+      "lote": "1433",
+      "matricula": null,
+      "numero": "64",
+      "quadra": "0114",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:24:53.627",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34728239,
+        "codigo": 12700,
+        "nome": "VAGNINER PERES HERNANDES",
+        "nomeSemEspolio": "VAGNINER PERES HERNANDES",
+        "nomeFantasia": null,
+        "cpfCnpj": "10453253920",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948687,
+        "codigo": 230,
+        "nome": "CENTRO."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051295,
+        "codigo": 189,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "EMÍLIA GOMES HENRIQUES."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "004",
+        "campo4": "0016",
+        "campo5": "1433",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.004.0016.1433.0001.1",
+      "enderecoFormatado": "Rua EMÍLIA GOMES HENRIQUES., 64, 1784 5564 - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-05-13T07:02:30.72",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12731241
+    },
+    {
+      "id": 12738888,
+      "codigo": 20199,
+      "unidade": 0,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": null,
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": null,
+      "lote": "0029",
+      "matricula": "18126 2CRI",
+      "numero": "117",
+      "quadra": "0002",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:25:55.3",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34741801,
+        "codigo": 27495,
+        "nome": "FERNANDO DA SILVA",
+        "nomeSemEspolio": "FERNANDO DA SILVA",
+        "nomeFantasia": null,
+        "cpfCnpj": "04191354990",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 101,
+        "abreviatura": "D",
+        "descricao": "Direito",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948699,
+        "codigo": 247,
+        "nome": "JARDIM PORTO BELLO."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051092,
+        "codigo": 906,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "ALBERTO LOPES SARGIN."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0331",
+        "campo5": "0029",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0331.0029.0001.0",
+      "enderecoFormatado": "Rua ALBERTO LOPES SARGIN., 117 - JARDIM PORTO BELLO. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-20T06:57:01.189",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12738888
+    },
+    {
+      "id": 12727295,
+      "codigo": 8231,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "8231",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "13165",
+      "lote": "0001",
+      "matricula": "8713 2CRI",
+      "numero": "192",
+      "quadra": "0009",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:24:39.878",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 91764922,
+        "codigo": 98617,
+        "nome": "SHEILA TEODORO DE LIMA",
+        "nomeSemEspolio": "SHEILA TEODORO DE LIMA",
+        "nomeFantasia": null,
+        "cpfCnpj": "03233362994",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948763,
+        "codigo": 12,
+        "nome": "CONJUNTO  FORTUNATO SIBIM."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7050961,
+        "codigo": 489,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "WANDERLEY GOMES HENRIQUES."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0212",
+        "campo5": "0001",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0212.0001.0001.1",
+      "enderecoFormatado": "Rua WANDERLEY GOMES HENRIQUES., 192, 13165 - CONJUNTO  FORTUNATO SIBIM. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-07-28T07:14:32.89",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12727295
+    },
+    {
+      "id": 12739529,
+      "codigo": 20731,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": null,
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": null,
+      "complemento": null,
+      "lote": "0009",
+      "matricula": null,
+      "numero": "41",
+      "quadra": "0040",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:25:57.652",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 36129940,
+        "codigo": 64560,
+        "nome": "GENI DA SILVA",
+        "nomeSemEspolio": "GENI DA SILVA",
+        "nomeFantasia": null,
+        "cpfCnpj": "87870088900",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 101,
+        "abreviatura": "D",
+        "descricao": "Direito",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948957,
+        "codigo": 266,
+        "nome": "CONJUNTO HABITACIONAL JOSÉ BENEDITO CATARINO."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051134,
+        "codigo": 957,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "FRANCISCO SAULINO FILHO"
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0416",
+        "campo5": "0009",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0416.0009.0001.1",
+      "enderecoFormatado": "Rua FRANCISCO SAULINO FILHO, 41 - CONJUNTO HABITACIONAL JOSÉ BENEDITO CATARINO. - CORNELIO PROCOPIO - PR",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-05-13T07:02:30.765",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12739529
+    },
+    {
+      "id": 30441276,
+      "codigo": 29702,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "1746",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": null,
+      "lote": "0002-B",
+      "matricula": null,
+      "numero": "515",
+      "quadra": "0254",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "KIRFBB",
+      "createdIn": "2025-04-10T10:06:20.652",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34720522,
+        "codigo": 3941,
+        "nome": "EMÍLIO MARTINS BOTELHO FILHO",
+        "nomeSemEspolio": "EMÍLIO MARTINS BOTELHO FILHO",
+        "nomeFantasia": null,
+        "cpfCnpj": "44564201972",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948687,
+        "codigo": 230,
+        "nome": "CENTRO."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051671,
+        "codigo": 234,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "GOIÁS."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "001",
+        "campo4": "0065",
+        "campo5": "2001",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.001.0065.2001.0001.1",
+      "enderecoFormatado": "Rua GOIÁS., 515 - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-05-13T07:02:30.632",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 30441276
+    },
+    {
+      "id": 12719317,
+      "codigo": 486,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "486",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "FARMAIS",
+      "lote": "0026",
+      "matricula": null,
+      "numero": "880",
+      "quadra": "0003",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:24:10.909",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34731379,
+        "codigo": 15500,
+        "nome": "ELETROBARROS - MATERIAIS ELETRICOS LTDA",
+        "nomeSemEspolio": "ELETROBARROS - MATERIAIS ELETRICOS LTDA",
+        "nomeFantasia": null,
+        "cpfCnpj": "82462250000108",
+        "tipoPessoa": {
+          "valor": "JURIDICA",
+          "descricao": "Jurídica"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948687,
+        "codigo": 230,
+        "nome": "CENTRO."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7050965,
+        "codigo": 493,
+        "tipoLogradouroDescricao": "Avenida",
+        "tipoLogradouroAbreviatura": "AV",
+        "nome": "XV DE NOVEMBRO."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "001",
+        "campo4": "0009",
+        "campo5": "9026",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.001.0009.9026.0001.1",
+      "enderecoFormatado": "Avenida XV DE NOVEMBRO., 880, FARMAIS - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-20T06:57:01.414",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12719317
+    },
+    {
+      "id": 12737593,
+      "codigo": 18424,
+      "unidade": 0,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": null,
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": null,
+      "complemento": null,
+      "lote": "0002",
+      "matricula": null,
+      "numero": "130",
+      "quadra": "0002",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:25:50.457",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34735772,
+        "codigo": 21141,
+        "nome": "JOSE RODOLFO BATISTA",
+        "nomeSemEspolio": "JOSE RODOLFO BATISTA",
+        "nomeFantasia": null,
+        "cpfCnpj": "04279169926",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948795,
+        "codigo": 107,
+        "nome": "JARDIM VALE VERDE."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051247,
+        "codigo": 821,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "VICTOR MARCELINO CORREA"
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0298",
+        "campo5": "0002",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0298.0002.0001.0",
+      "enderecoFormatado": "Rua VICTOR MARCELINO CORREA, 130 - JARDIM VALE VERDE. - CORNELIO PROCOPIO - PR",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-07-28T07:14:32.953",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12737593
+    },
+    {
+      "id": 12733173,
+      "codigo": 14062,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "14062",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "11363",
+      "lote": "0009",
+      "matricula": "8725 1ºCRI",
+      "numero": "96",
+      "quadra": "F",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:25:00.489",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34734962,
+        "codigo": 19866,
+        "nome": "BENEDITO MELO DE SOUZA FILHO",
+        "nomeSemEspolio": "BENEDITO MELO DE SOUZA FILHO",
+        "nomeFantasia": null,
+        "cpfCnpj": "43650252953",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948753,
+        "codigo": 30,
+        "nome": "JARDIM MORUMBI."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051721,
+        "codigo": 347,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "MATHEUS REGHIN"
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "004",
+        "campo4": "0140",
+        "campo5": "0009",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.004.0140.0009.0001.1",
+      "enderecoFormatado": "Rua MATHEUS REGHIN, 96, 11363 - JARDIM MORUMBI. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-20T06:57:01.414",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12733173
+    },
+    {
+      "id": 12746673,
+      "codigo": 27806,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "1974",
+      "apartamento": "38",
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "APARTAMENTO 38",
+      "lote": "0002",
+      "matricula": null,
+      "numero": "505",
+      "quadra": "0253",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:27:16.15",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 89281643,
+        "codigo": 98165,
+        "nome": "ADFEMILTON MIGUEL DA SILVA",
+        "nomeSemEspolio": "ADFEMILTON MIGUEL DA SILVA",
+        "nomeFantasia": null,
+        "cpfCnpj": "01707593930",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948687,
+        "codigo": 230,
+        "nome": "CENTRO."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051602,
+        "codigo": 454,
+        "tipoLogradouroDescricao": "Avenida",
+        "tipoLogradouroAbreviatura": "AV",
+        "nome": "SANTOS DUMONT."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "001",
+        "campo4": "0079",
+        "campo5": "0002",
+        "campo6": "0026",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.001.0079.0002.0026.1",
+      "enderecoFormatado": "Avenida SANTOS DUMONT., 505, 38, APARTAMENTO 38 - CENTRO. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-05-23T06:45:07.098",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12746673
+    },
+    {
+      "id": 24344216,
+      "codigo": 29251,
+      "unidade": null,
+      "tipoImovel": {
+        "valor": "RURAL",
+        "descricao": "Rural"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": "7120780003701",
+      "inscricaoAnterior": null,
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": null,
+      "lote": null,
+      "matricula": "1.522 1ºSRI",
+      "numero": "S/N",
+      "quadra": null,
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "KIRFBB",
+      "createdIn": "2023-10-31T08:11:54.056",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34723358,
+        "codigo": 7230,
+        "nome": "JOSÉ ROSSIERI RUIZ",
+        "nomeSemEspolio": "JOSÉ ROSSIERI RUIZ",
+        "nomeFantasia": null,
+        "cpfCnpj": "32636806920",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948678,
+        "codigo": 127,
+        "nome": "ZONA RURAL"
+      },
+      "condominio": null,
+      "distrito": null,
+      "localidade": null,
+      "logradouro": {
+        "id": 7050899,
+        "codigo": 683,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "ZONA RURAL"
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "00",
+        "campo2": "00",
+        "campo3": "000",
+        "campo4": "0000",
+        "campo5": "0000",
+        "campo6": "0000",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "00.00.000.0000.0000.0000",
+      "enderecoFormatado": "Rua ZONA RURAL, S/N - ZONA RURAL - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2023-11-21T08:45:34.853",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 24344216
+    },
+    {
+      "id": 12725157,
+      "codigo": 6166,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "6166",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "10097 964",
+      "lote": "0015",
+      "matricula": null,
+      "numero": "306",
+      "quadra": "0005",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:24:32.433",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34728299,
+        "codigo": 12765,
+        "nome": "VALDEMIR MARTINS",
+        "nomeSemEspolio": "VALDEMIR MARTINS",
+        "nomeFantasia": null,
+        "cpfCnpj": "52281434915",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948725,
+        "codigo": 34,
+        "nome": "JARDIM PRIMAVERA."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051346,
+        "codigo": 214,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "FRANCISCO CAMACHO CAMACHO."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0090",
+        "campo5": "0015",
+        "campo6": "0002",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0090.0015.0002.1",
+      "enderecoFormatado": "Rua FRANCISCO CAMACHO CAMACHO., 306, 10097 964 - JARDIM PRIMAVERA. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-05-23T06:45:07.871",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12725157
+    },
+    {
+      "id": 12739641,
+      "codigo": 20833,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": null,
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": null,
+      "complemento": null,
+      "lote": "0004",
+      "matricula": "15138 2ºCR",
+      "numero": "SN",
+      "quadra": "0046",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:25:58.107",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34739119,
+        "codigo": 24091,
+        "nome": "RAFAEL MOREIRA DE ARRUDA",
+        "nomeSemEspolio": "RAFAEL MOREIRA DE ARRUDA",
+        "nomeFantasia": null,
+        "cpfCnpj": "04712280956",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 101,
+        "abreviatura": "D",
+        "descricao": "Direito",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948957,
+        "codigo": 266,
+        "nome": "CONJUNTO HABITACIONAL JOSÉ BENEDITO CATARINO."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051132,
+        "codigo": 955,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "ISMALDA BUENO DE OLIVEIRA"
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0422",
+        "campo5": "0004",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0422.0004.0001.1",
+      "enderecoFormatado": "Rua ISMALDA BUENO DE OLIVEIRA, SN - CONJUNTO HABITACIONAL JOSÉ BENEDITO CATARINO. - CORNELIO PROCOPIO - PR",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-20T06:57:01.618",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12739641
+    },
+    {
+      "id": 12727199,
+      "codigo": 8195,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "8195",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": null,
+      "lote": "0011",
+      "matricula": null,
+      "numero": "169",
+      "quadra": "0007",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:24:39.666",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34751758,
+        "codigo": 38110,
+        "nome": "SÔNIA CASTILHO",
+        "nomeSemEspolio": "SÔNIA CASTILHO",
+        "nomeFantasia": null,
+        "cpfCnpj": "01814103970",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948763,
+        "codigo": 12,
+        "nome": "CONJUNTO  FORTUNATO SIBIM."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051739,
+        "codigo": 302,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "JOSÉ LEANDRO DE BARROS."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0210",
+        "campo5": "0011",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0210.0011.0001.1",
+      "enderecoFormatado": "Rua JOSÉ LEANDRO DE BARROS., 169 - CONJUNTO  FORTUNATO SIBIM. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-20T06:57:01.578",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12727199
+    },
+    {
+      "id": 12742031,
+      "codigo": 23235,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": null,
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": null,
+      "lote": "0023",
+      "matricula": "14049 2CR",
+      "numero": "111",
+      "quadra": "0004",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:26:16.983",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34736986,
+        "codigo": 22219,
+        "nome": "ADILSON FERREIRA DE LIMA",
+        "nomeSemEspolio": "ADILSON FERREIRA DE LIMA",
+        "nomeFantasia": null,
+        "cpfCnpj": "03001049952",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 101,
+        "abreviatura": "D",
+        "descricao": "Direito",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948931,
+        "codigo": 296,
+        "nome": "CONJUNTO HABITACIONAL PROFESSORA MARTHA DEQUECH."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051790,
+        "codigo": 1718,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "RAFAELE NOGUEIRA DE OLIVEIRA"
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0515",
+        "campo5": "0023",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0515.0023.0001.1",
+      "enderecoFormatado": "Rua RAFAELE NOGUEIRA DE OLIVEIRA, 111 - CONJUNTO HABITACIONAL PROFESSORA MARTHA DEQUECH. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-07-23T06:54:49.531",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12742031
+    },
+    {
+      "id": 12735224,
+      "codigo": 16019,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "16019",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "QC L08",
+      "lote": "0008",
+      "matricula": "12455 2CRI",
+      "numero": "540",
+      "quadra": "C",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:25:22.337",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34746323,
+        "codigo": 32275,
+        "nome": "GUSTAVO DE ALMEIDA SANTOS",
+        "nomeSemEspolio": "GUSTAVO DE ALMEIDA SANTOS",
+        "nomeFantasia": null,
+        "cpfCnpj": "08361309950",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": "11630",
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948735,
+        "codigo": 44,
+        "nome": "JARDIM VENEZA II."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051481,
+        "codigo": 67,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "ASTERIO VALLIN VILLELA"
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0234",
+        "campo5": "0008",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0234.0008.0001.1",
+      "enderecoFormatado": "Rua ASTERIO VALLIN VILLELA, 540, QC L08 - JARDIM VENEZA II. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-20T06:57:01.548",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12735224
+    },
+    {
+      "id": 12735471,
+      "codigo": 17053,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "17053",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": null,
+      "lote": "0011",
+      "matricula": null,
+      "numero": "167",
+      "quadra": "0007",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:25:25.381",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34751758,
+        "codigo": 38110,
+        "nome": "SÔNIA CASTILHO",
+        "nomeSemEspolio": "SÔNIA CASTILHO",
+        "nomeFantasia": null,
+        "cpfCnpj": "01814103970",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948763,
+        "codigo": 12,
+        "nome": "CONJUNTO  FORTUNATO SIBIM."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051739,
+        "codigo": 302,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "JOSÉ LEANDRO DE BARROS."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0210",
+        "campo5": "0011",
+        "campo6": "0002",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0210.0011.0002.1",
+      "enderecoFormatado": "Rua JOSÉ LEANDRO DE BARROS., 167 - CONJUNTO  FORTUNATO SIBIM. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-20T06:57:02.931",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12735471
+    },
+    {
+      "id": 12725115,
+      "codigo": 6104,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "6104",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "10053 960",
+      "lote": "0038",
+      "matricula": null,
+      "numero": "92",
+      "quadra": "0003",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:24:32.309",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34740304,
+        "codigo": 26060,
+        "nome": "ANDERSON APARECIDO SOLDEIRA",
+        "nomeSemEspolio": "ANDERSON APARECIDO SOLDEIRA",
+        "nomeFantasia": null,
+        "cpfCnpj": "02483196985",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948725,
+        "codigo": 34,
+        "nome": "JARDIM PRIMAVERA."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051345,
+        "codigo": 213,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "FRANCISCO BREVILHERI."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0087",
+        "campo5": "0038",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0087.0038.0001.1",
+      "enderecoFormatado": "Rua FRANCISCO BREVILHERI., 92, 10053 960 - JARDIM PRIMAVERA. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-15T06:57:06.535",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12725115
+    },
+    {
+      "id": 12726832,
+      "codigo": 7789,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "7789",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": null,
+      "lote": "0006",
+      "matricula": null,
+      "numero": "370",
+      "quadra": "0008",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:24:38.262",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 92461800,
+        "codigo": 98749,
+        "nome": "LUIS CARLOS DA SILVA",
+        "nomeSemEspolio": "LUIS CARLOS DA SILVA",
+        "nomeFantasia": null,
+        "cpfCnpj": "13205832884",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948765,
+        "codigo": 14,
+        "nome": "CONJUNTO FLORÊNCIO REBOLHO."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051525,
+        "codigo": 404,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "PLACIDO MORAES"
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0174",
+        "campo5": "0006",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0174.0006.0001.1",
+      "enderecoFormatado": "Rua PLACIDO MORAES, 370 - CONJUNTO FLORÊNCIO REBOLHO. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-15T06:57:06.634",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12726832
+    },
+    {
+      "id": 12728675,
+      "codigo": 9191,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "9191",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "2837 4228",
+      "lote": "0253",
+      "matricula": null,
+      "numero": "535",
+      "quadra": "0161",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:24:44.674",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 34745797,
+        "codigo": 31586,
+        "nome": "POLIANA VITÓRIA GODOY",
+        "nomeSemEspolio": "POLIANA VITÓRIA GODOY",
+        "nomeFantasia": null,
+        "cpfCnpj": "06490671930",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948828,
+        "codigo": 84,
+        "nome": "VILA MOREIRA."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051490,
+        "codigo": 77,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "BAHIA."
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "003",
+        "campo4": "0005",
+        "campo5": "0253",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.003.0005.0253.0001.1",
+      "enderecoFormatado": "Rua BAHIA., 535, 2837 4228 - VILA MOREIRA. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-08-21T06:58:43.844",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12728675
+    },
+    {
+      "id": 12725295,
+      "codigo": 6662,
+      "unidade": 1,
+      "tipoImovel": {
+        "valor": "URBANO",
+        "descricao": "Urbano"
+      },
+      "idImovelPrincipal": null,
+      "idPessoasEnderecos": null,
+      "enderecoCorrespondencia": {
+        "valor": "IMOVEL",
+        "descricao": "Imóvel"
+      },
+      "englobado": false,
+      "inscricaoIncra": null,
+      "inscricaoAnterior": "6662",
+      "apartamento": null,
+      "bloco": null,
+      "garagem": null,
+      "sala": null,
+      "loja": null,
+      "cep": "86300000",
+      "complemento": "10573 101",
+      "lote": "0002",
+      "matricula": null,
+      "numero": "33",
+      "quadra": "0031",
+      "setor": null,
+      "secao": null,
+      "situacao": {
+        "valor": "ATIVADO",
+        "descricao": "Ativo"
+      },
+      "createdBy": "revenda-25",
+      "createdIn": "2021-12-22T19:24:32.924",
+      "agrupamento": {
+        "id": 298463,
+        "descricao": "Gerais",
+        "desativado": "N",
+        "cadastro": {
+          "valor": "IMOVEIS",
+          "descricao": "Imóveis"
+        },
+        "tipoProjeto": null
+      },
+      "responsavel": {
+        "id": 36120691,
+        "codigo": 57208,
+        "nome": "BRUNO HENRIQUE NOBRE",
+        "nomeSemEspolio": "BRUNO HENRIQUE NOBRE",
+        "nomeFantasia": null,
+        "cpfCnpj": "08047415905",
+        "tipoPessoa": {
+          "valor": "FISICA",
+          "descricao": "Física"
+        },
+        "situacao": {
+          "valor": "ATIVADO",
+          "descricao": "Ativo"
+        },
+        "email": null,
+        "inscricaoMunicipal": null,
+        "site": null
+      },
+      "corresponsavel": null,
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      },
+      "bairro": {
+        "id": 948725,
+        "codigo": 34,
+        "nome": "JARDIM PRIMAVERA."
+      },
+      "condominio": null,
+      "distrito": {
+        "id": 42738,
+        "codigo": 1,
+        "nome": "CORNELIO PROCOPIO - PR"
+      },
+      "localidade": null,
+      "logradouro": {
+        "id": 7051564,
+        "codigo": 380,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "RUA PADRE MAX KAUFMANN"
+      },
+      "loteamento": null,
+      "debitoEmConta": null,
+      "imobiliaria": null,
+      "inscricaoImobiliaria": {
+        "campo1": "01",
+        "campo2": "01",
+        "campo3": "002",
+        "campo4": "0118",
+        "campo5": "0002",
+        "campo6": "0001",
+        "campo7": null,
+        "campo8": null,
+        "campo9": null,
+        "campo10": null
+      },
+      "inscricaoImobiliariaFormatada": "01.01.002.0118.0002.0001.1",
+      "enderecoFormatado": "Rua RUA PADRE MAX KAUFMANN, 33, 10573 101 - JARDIM PRIMAVERA. - CORNELIO PROCOPIO - PR - 86300-000",
+      "dtConstrucao": null,
+      "dhOperacao": "2025-06-02T06:42:14.252",
+      "idEnglobamento": null,
+      "idImovelEnglobado": 12725295
+    }
+  ]
+}

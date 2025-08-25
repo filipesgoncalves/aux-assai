@@ -1,0 +1,4 @@
+2025-08-25 10:58:16,677 | INFO | app.main | Iniciando carga...
+2025-08-25 10:58:16,678 | INFO | app.main | Carregando cadastros de: data/bairros.json
+2025-08-25 10:58:16,781 | INFO | app.main | Cadastros: commit concluído.
+2025-08-25 10:58:16,782 | INFO | app.main | Finalizado em 0.10s.

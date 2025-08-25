@@ -1,0 +1,508 @@
+{
+  "offset": 0,
+  "limit": 20,
+  "total": 21,
+  "hasNext": true,
+  "content": [
+    {
+      "id": 1,
+      "nome": "Abadia",
+      "codigo": null,
+      "municipio": {
+        "id": 2478,
+        "nome": "Jandaíra",
+        "estado": {
+          "id": 5,
+          "nome": "Bahia",
+          "uf": "BA",
+          "codigoIbge": 29,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 2917904,
+        "codigoSIAFI": 983659
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Abadia de Goiás",
+      "codigo": null,
+      "municipio": {
+        "id": 1,
+        "nome": "Abadia de Goiás",
+        "estado": {
+          "id": 9,
+          "nome": "Goiás",
+          "uf": "GO",
+          "codigoIbge": 52,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 5200050,
+        "codigoSIAFI": 981050
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Abadia dos Dourados",
+      "codigo": null,
+      "municipio": {
+        "id": 2,
+        "nome": "Abadia dos Dourados",
+        "estado": {
+          "id": 13,
+          "nome": "Minas Gerais",
+          "uf": "MG",
+          "codigoIbge": 31,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 3100104,
+        "codigoSIAFI": 984001
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Abadiânia",
+      "codigo": null,
+      "municipio": {
+        "id": 3,
+        "nome": "Abadiânia",
+        "estado": {
+          "id": 9,
+          "nome": "Goiás",
+          "uf": "GO",
+          "codigoIbge": 52,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 5200100,
+        "codigoSIAFI": 989201
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Abaeté",
+      "codigo": null,
+      "municipio": {
+        "id": 5,
+        "nome": "Abaeté",
+        "estado": {
+          "id": 13,
+          "nome": "Minas Gerais",
+          "uf": "MG",
+          "codigoIbge": 31,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 3100203,
+        "codigoSIAFI": 984003
+      }
+    },
+    {
+      "id": 7,
+      "nome": "Abaeté dos Mendes",
+      "codigo": null,
+      "municipio": {
+        "id": 4180,
+        "nome": "Rio Paranaíba",
+        "estado": {
+          "id": 13,
+          "nome": "Minas Gerais",
+          "uf": "MG",
+          "codigoIbge": 31,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 3155504,
+        "codigoSIAFI": 985109
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Abaetetuba",
+      "codigo": null,
+      "municipio": {
+        "id": 4,
+        "nome": "Abaetetuba",
+        "estado": {
+          "id": 16,
+          "nome": "Pará",
+          "uf": "PA",
+          "codigoIbge": 15,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 1500107,
+        "codigoSIAFI": 980401
+      }
+    },
+    {
+      "id": 8,
+      "nome": "Abaiara",
+      "codigo": null,
+      "municipio": {
+        "id": 6,
+        "nome": "Abaiara",
+        "estado": {
+          "id": 6,
+          "nome": "Ceará",
+          "uf": "CE",
+          "codigoIbge": 23,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 2300101,
+        "codigoSIAFI": 981301
+      }
+    },
+    {
+      "id": 13,
+      "nome": "Abaíba",
+      "codigo": null,
+      "municipio": {
+        "id": 2730,
+        "nome": "Leopoldina",
+        "estado": {
+          "id": 13,
+          "nome": "Minas Gerais",
+          "uf": "MG",
+          "codigoIbge": 31,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 3138401,
+        "codigoSIAFI": 984767
+      }
+    },
+    {
+      "id": 14,
+      "nome": "Abaíra",
+      "codigo": null,
+      "municipio": {
+        "id": 9,
+        "nome": "Abaíra",
+        "estado": {
+          "id": 5,
+          "nome": "Bahia",
+          "uf": "BA",
+          "codigoIbge": 29,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 2900108,
+        "codigoSIAFI": 983301
+      }
+    },
+    {
+      "id": 9,
+      "nome": "Abapã",
+      "codigo": null,
+      "municipio": {
+        "id": 1131,
+        "nome": "Castro",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4104907,
+        "codigoSIAFI": 987495
+      }
+    },
+    {
+      "id": 11,
+      "nome": "Abaré",
+      "codigo": null,
+      "municipio": {
+        "id": 7,
+        "nome": "Abaré",
+        "estado": {
+          "id": 5,
+          "nome": "Bahia",
+          "uf": "BA",
+          "codigoIbge": 29,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 2900207,
+        "codigoSIAFI": 983303
+      }
+    },
+    {
+      "id": 10,
+      "nome": "Abarracamento",
+      "codigo": null,
+      "municipio": {
+        "id": 5982,
+        "nome": "Betha Sistemas Ltda",
+        "estado": {
+          "id": 24,
+          "nome": "Santa Catarina",
+          "uf": "SC",
+          "codigoIbge": 42,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 0,
+        "codigoSIAFI": 0
+      }
+    },
+    {
+      "id": 12,
+      "nome": "Abatiá",
+      "codigo": null,
+      "municipio": {
+        "id": 8,
+        "nome": "Abatiá",
+        "estado": {
+          "id": 14,
+          "nome": "Paraná",
+          "uf": "PR",
+          "codigoIbge": 41,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4100103,
+        "codigoSIAFI": 987401
+      }
+    },
+    {
+      "id": 15,
+      "nome": "Abdon Batista",
+      "codigo": null,
+      "municipio": {
+        "id": 10,
+        "nome": "Abdon Batista",
+        "estado": {
+          "id": 24,
+          "nome": "Santa Catarina",
+          "uf": "SC",
+          "codigoIbge": 42,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4200051,
+        "codigoSIAFI": 989939
+      }
+    },
+    {
+      "id": 17,
+      "nome": "Abelardo Luz",
+      "codigo": null,
+      "municipio": {
+        "id": 12,
+        "nome": "Abelardo Luz",
+        "estado": {
+          "id": 24,
+          "nome": "Santa Catarina",
+          "uf": "SC",
+          "codigoIbge": 42,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 4200101,
+        "codigoSIAFI": 988001
+      }
+    },
+    {
+      "id": 16,
+      "nome": "Abel Figueiredo",
+      "codigo": null,
+      "municipio": {
+        "id": 11,
+        "nome": "Abel Figueiredo",
+        "estado": {
+          "id": 16,
+          "nome": "Pará",
+          "uf": "PA",
+          "codigoIbge": 15,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 1500131,
+        "codigoSIAFI": 980375
+      }
+    },
+    {
+      "id": 25,
+      "nome": "Abóbora",
+      "codigo": null,
+      "municipio": {
+        "id": 2588,
+        "nome": "Juazeiro",
+        "estado": {
+          "id": 5,
+          "nome": "Bahia",
+          "uf": "BA",
+          "codigoIbge": 29,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 2918407,
+        "codigoSIAFI": 983669
+      }
+    },
+    {
+      "id": 19,
+      "nome": "Abraão",
+      "codigo": null,
+      "municipio": {
+        "id": 206,
+        "nome": "Angra dos Reis",
+        "estado": {
+          "id": 21,
+          "nome": "Rio de Janeiro",
+          "uf": "RJ",
+          "codigoIbge": 33,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 3300100,
+        "codigoSIAFI": 985801
+      }
+    },
+    {
+      "id": 18,
+      "nome": "Abrantes",
+      "codigo": null,
+      "municipio": {
+        "id": 884,
+        "nome": "Camaçari",
+        "estado": {
+          "id": 5,
+          "nome": "Bahia",
+          "uf": "BA",
+          "codigoIbge": 29,
+          "pais": {
+            "id": 29,
+            "nome": "Brasil",
+            "sigla2C": "BR",
+            "sigla3C": "BRA",
+            "sigla3D": "076",
+            "codigoBacen": "1058"
+          }
+        },
+        "codigoIBGE": 2905701,
+        "codigoSIAFI": 983413
+      }
+    }
+  ]
+}

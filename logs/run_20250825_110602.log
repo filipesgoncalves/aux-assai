@@ -1,0 +1,27 @@
+2025-08-25 11:06:02,578 | INFO | app.main | Iniciando carga...
+2025-08-25 11:06:02,579 | INFO | app.main | Carregando cadastros de: data/bairros.json
+2025-08-25 11:06:02,580 | ERROR | app.main | Falha na execução: Error processing data/bairros.json: 'Session' object has no attribute 'connect'
+Traceback (most recent call last):
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader.py", line 90, in processar_cadastros
+    loader = _determine_loader(data, json_path)
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader.py", line 51, in _determine_loader
+    processar_cadastros_from_bairros(json_path)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader_municipio.py", line 128, in processar_cadastros_from_bairros
+    check_schema(sess)
+    ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\database.py", line 58, in check_schema
+    with engine.connect() as conn:
+         ^^^^^^^^^^^^^^
+AttributeError: 'Session' object has no attribute 'connect'. Did you mean: 'connection'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\main.py", line 199, in main
+    cadastro_loader(session, args.json)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader.py", line 103, in processar_cadastros
+    raise ValueError(f"Error processing {json_path}: {str(e)}")
+ValueError: Error processing data/bairros.json: 'Session' object has no attribute 'connect'
+2025-08-25 11:06:02,584 | INFO | app.main | Finalizado em 0.01s.

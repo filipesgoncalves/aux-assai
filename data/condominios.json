@@ -1,0 +1,188 @@
+{
+  "offset": 0,
+  "limit": 20,
+  "total": 21,
+  "hasNext": true,
+  "content": [
+    {
+      "id": 60103,
+      "codigo": 85,
+      "nome": "1",
+      "tipoCondominio": {
+        "valor": "HORIZONTAL",
+        "descricao": "Horizontal"
+      }
+    },
+    {
+      "id": 164223,
+      "codigo": 98,
+      "nome": "86300-000",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 59763,
+      "codigo": 71,
+      "nome": "ALBERTO CAMPOS GATTI",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 59664,
+      "codigo": 66,
+      "nome": "ALBERTO CARAZZAI",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 59903,
+      "codigo": 82,
+      "nome": "ALIOMAR BALEEIRO",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 59743,
+      "codigo": 70,
+      "nome": "ANCHIETA",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 59823,
+      "codigo": 75,
+      "nome": "ANTONIO LEOVIGILDO CASSIANO",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 59764,
+      "codigo": 73,
+      "nome": "BENEDITO CUSTODIO DIAS",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 59803,
+      "codigo": 74,
+      "nome": "BRASIL",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 73923,
+      "codigo": 89,
+      "nome": "C J. ODILON SEGANTE ATHAIDE BLOCO 05 APTO 42  4º A",
+      "tipoCondominio": {
+        "valor": "HORIZONTAL",
+        "descricao": "Horizontal"
+      }
+    },
+    {
+      "id": 59783,
+      "codigo": 72,
+      "nome": "COLOMBO",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 58369,
+      "codigo": 28,
+      "nome": "COND.COMERCIAL ILHA PORCHAT",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 60303,
+      "codigo": 86,
+      "nome": "CONDOMÍNIO CASA VERSAGE RESIDENCIAL",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 58388,
+      "codigo": 49,
+      "nome": "Condomínio Edifício Jamaíca",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 58392,
+      "codigo": 55,
+      "nome": "CONDOMINIO GRAN VILLAGE",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 128343,
+      "codigo": 93,
+      "nome": "CONDOMINIO LAGO DO BOSQUE",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 59824,
+      "codigo": 77,
+      "nome": "CONDOMINIO RESIDENCIAL CAPE COD RESIDENCE",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 58383,
+      "codigo": 44,
+      "nome": "CONDOMÍNIO RESIDENCIAL CAPE COD RESIDENCE",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 58371,
+      "codigo": 30,
+      "nome": "CONDOMINIO RESIDENCIAL DAS GAIVOTAS",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    },
+    {
+      "id": 58396,
+      "codigo": 60,
+      "nome": "CONDOMINIO RESIDENCIAL FIDELIS GABRIEL DE SOUZA",
+      "tipoCondominio": {
+        "valor": "VERTICAL",
+        "descricao": "Vertical"
+      }
+    }
+  ]
+}

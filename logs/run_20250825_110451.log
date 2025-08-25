@@ -1,0 +1,32 @@
+2025-08-25 11:04:51,695 | INFO | app.main | Iniciando carga...
+2025-08-25 11:04:51,695 | INFO | app.main | Carregando cadastros de: data/bairros.json
+2025-08-25 11:04:51,794 | ERROR | app.main | Falha na execução: Error processing data/bairros.json: Error processing data/bairros.json: check_schema() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader_bairro.py", line 163, in processar_cadastros
+    ok, skipped = load_from_iterable(records)
+                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader_bairro.py", line 103, in load_from_iterable
+    check_schema(engine, SETTINGS.schema)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: check_schema() takes 1 positional argument but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader.py", line 93, in processar_cadastros
+    loader(sess, json_path)
+    ~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader_bairro.py", line 168, in processar_cadastros
+    raise ValueError(f"Error processing {json_path}: {str(e)}")
+ValueError: Error processing data/bairros.json: check_schema() takes 1 positional argument but 2 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\main.py", line 199, in main
+    cadastro_loader(session, args.json)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tributech\Downloads\Escriptes\aux-clevelandia\aux-clevelandia\app\loader.py", line 103, in processar_cadastros
+    raise ValueError(f"Error processing {json_path}: {str(e)}")
+ValueError: Error processing data/bairros.json: Error processing data/bairros.json: check_schema() takes 1 positional argument but 2 were given
+2025-08-25 11:04:51,798 | INFO | app.main | Finalizado em 0.10s.

@@ -1,0 +1,68 @@
+{
+  "offset": 0,
+  "limit": 20,
+  "total": 3,
+  "hasNext": false,
+  "content": [
+    {
+      "id": 1611846,
+      "nroSecao": 1,
+      "logradouro": {
+        "id": 7050948,
+        "codigo": 541,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "EUGENIA DIAS DE TOLEDO"
+      },
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      }
+    },
+    {
+      "id": 1611847,
+      "nroSecao": 1,
+      "logradouro": {
+        "id": 7051380,
+        "codigo": 542,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "7"
+      },
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      }
+    },
+    {
+      "id": 1611848,
+      "nroSecao": 1,
+      "logradouro": {
+        "id": 7050950,
+        "codigo": 544,
+        "tipoLogradouroDescricao": "Rua",
+        "tipoLogradouroAbreviatura": "R",
+        "nome": "6"
+      },
+      "face": {
+        "id": 103,
+        "abreviatura": "A",
+        "descricao": "Ambos",
+        "padrao": {
+          "valor": "SIM",
+          "descricao": "Sim"
+        }
+      }
+    }
+  ]
+}
