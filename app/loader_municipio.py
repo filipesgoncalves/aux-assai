@@ -32,7 +32,6 @@ def _process_municipios_from_bairros(raw_data: Dict[str, Any]) -> Set[Dict[str, 
             if not estado:
                 continue
 
-            # Create a tuple of the municipality data for deduplication
             mun_tuple = (
                 mun.get("id"),
                 mun.get("nome"),
@@ -49,7 +48,6 @@ def _process_municipios_from_bairros(raw_data: Dict[str, Any]) -> Set[Dict[str, 
             print(f"Error extracting municipality data: {e}")
             continue
 
-    # Convert tuples back to dictionaries
     return [
         {
             "id": mun[0],
@@ -70,7 +68,6 @@ def _upsert_municipio(sess: Session, data: Dict[str, Any]) -> None:
         return
 
     try:
-        # Prepare the insert statement
         stmt = insert(Municipio).values(
             id=data["id"],
             nome=data["nome"],
@@ -82,9 +79,8 @@ def _upsert_municipio(sess: Session, data: Dict[str, Any]) -> None:
             estado_codigo_ibge=data["estado_codigo_ibge"]
         )
 
-        # Add ON CONFLICT DO UPDATE clause
         stmt = stmt.on_conflict_do_update(
-            index_elements=[Municipio.codigo_siafi],  # Changed from id to codigo_siafi
+            index_elements=[Municipio.codigo_siafi],  
             set_={
                 "id": stmt.excluded.id,
                 "nome": stmt.excluded.nome,
@@ -96,7 +92,6 @@ def _upsert_municipio(sess: Session, data: Dict[str, Any]) -> None:
             }
         )
 
-        # Execute the statement
         sess.execute(stmt)
         
     except Exception as e:
@@ -105,7 +100,7 @@ def _upsert_municipio(sess: Session, data: Dict[str, Any]) -> None:
         try:
             sess.rollback()
         except:
-            pass  # Ignore rollback errors
+            pass  
         raise
 
 def processar_cadastros_from_bairros(json_path: str | Path) -> None:
@@ -114,11 +109,10 @@ def processar_cadastros_from_bairros(json_path: str | Path) -> None:
         raise ValueError("JSON path not provided")
 
     try:
-        # Read and parse JSON file
+       
         with open(json_path, 'r', encoding='utf-8') as f:
             raw_data = json.load(f)
 
-        # Process records
         municipios = _process_municipios_from_bairros(raw_data)
         if not municipios:
             print("No municipalities found in bairros data")
@@ -126,18 +120,14 @@ def processar_cadastros_from_bairros(json_path: str | Path) -> None:
 
         print(f"Processing {len(municipios)} municipalities...")
         
-        # Process each municipality in its own transaction
         successful_count = 0
         for mun in municipios:
             sess = SessionLocal()
             try:
-                # Set search path if configured
                 check_schema(sess)
                 
-                # Process municipality
                 _upsert_municipio(sess, mun)
                 
-                # Commit this municipality
                 sess.commit()
                 successful_count += 1
                 
@@ -146,12 +136,12 @@ def processar_cadastros_from_bairros(json_path: str | Path) -> None:
                 try:
                     sess.rollback()
                 except:
-                    pass  # Ignore rollback errors
+                    pass  
             finally:
                 try:
                     sess.close()
                 except:
-                    pass  # Ignore close errors
+                    pass  
 
         print(f"Successfully processed {successful_count} municipalities")
         

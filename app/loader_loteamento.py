@@ -1,4 +1,3 @@
-# app/loader_loteamento.py
 from __future__ import annotations
 
 import json
@@ -32,7 +31,6 @@ def _datetime_or_none(value):
         return value
     if isinstance(value, str):
         try:
-            # Try different datetime formats
             formats = [
                 "%Y-%m-%dT%H:%M:%S.%f",
                 "%Y-%m-%dT%H:%M:%S",
@@ -101,7 +99,6 @@ def load_from_iterable(
     ok = skipped = 0
 
     try:
-        # Sanity check for schema
         check_schema(engine, SETTINGS.schema)
     except Exception as e:
         print(f"Error checking schema: {str(e)}")
@@ -114,7 +111,6 @@ def load_from_iterable(
         with SessionLocal() as sess:
             for record in chunk:
                 try:
-                    # Process and insert record
                     processed_data = _process_record(record)
                     if processed_data:
                         _upsert_loteamento(sess, processed_data)
@@ -160,7 +156,6 @@ def processar_cadastros(sess: Session, json_path: str) -> None:
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
         
-        # Fix encoding issues
         data = fix_encoding_in_dict(data)
         
         if isinstance(data, dict) and "content" in data:

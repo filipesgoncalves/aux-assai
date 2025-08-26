@@ -1,4 +1,3 @@
-# app/utils.py
 """
 Utility functions for data processing.
 """
@@ -25,14 +24,10 @@ def fix_utf8_encoding(text: str) -> str:
         return text
     
     try:
-        # Try to fix double-encoded UTF-8
-        # If the text was UTF-8 decoded as Latin-1, this should fix it
         if '\u00c3' in text:
-            # Encode as Latin-1 then decode as UTF-8
             fixed = text.encode('latin-1').decode('utf-8')
             return fixed
     except (UnicodeDecodeError, UnicodeEncodeError):
-        # If conversion fails, return original
         pass
     
     return text
