@@ -16,8 +16,8 @@ Este projeto utiliza variáveis de ambiente para manter informações sensíveis
    PGPORT=5432
    PGUSER=postgres
    PGPASSWORD=sua_senha_real
-   PGDATABASE=auxiliar_assai
-   PGSCHEMA=imobiliario
+   PGDATABASE=seu_banco
+   PGSCHEMA=seu_schema
    
    # Caminho do arquivo SQL de schema
    SQL_SCHEMA_PATH=sql/schema_auxiliar.sql
@@ -36,24 +36,6 @@ Este projeto utiliza variáveis de ambiente para manter informações sensíveis
 - **PGSCHEMA**: Schema padrão a ser usado
 - **SQL_SCHEMA_PATH**: Caminho para o arquivo de schema SQL
 - **ADMIN_DB**: Base de dados administrativa para operações de manutenção
-
-## Segurança
-
-⚠️ **IMPORTANTE**: 
-- O arquivo `.env` contém informações sensíveis e está no `.gitignore`
-- NUNCA committe o arquivo `.env` no Git
-- Use o `.env.example` como template para outros desenvolvedores
-- Mantenha suas senhas seguras e não as compartilhe
-
-## Como funciona no código
-
-O projeto usa a biblioteca `python-dotenv` para carregar automaticamente as variáveis do arquivo `.env`:
-
-```python
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
 
 # As variáveis ficam disponíveis via os.getenv()
 db_password = os.getenv("PGPASSWORD")
