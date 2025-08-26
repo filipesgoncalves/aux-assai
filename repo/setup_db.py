@@ -2,33 +2,25 @@ from __future__ import annotations
 
 import os
 import json
+import sys
 from pathlib import Path
 from typing import Optional, Dict, Any, List
 
 import psycopg
 from psycopg import sql
-from dotenv import load_dotenv
 
+# Adiciona o diretório pai ao path para importar config
+sys.path.append(str(Path(__file__).parent.parent))
+from config import DB_CONFIG
 
 # =========================
-# Config via .env (com defaults)
+# Configurações de arquivos
 # =========================
-load_dotenv()
+ADMIN_DB = os.getenv("ADMIN_DB", "postgres") 
 
-DB_HOST = os.getenv("PGHOST", "localhost")
-DB_PORT = int(os.getenv("PGPORT", "5432"))
-DB_NAME = os.getenv("PGDATABASE", "auxiliar_assai")
-DB_USER = os.getenv("PGUSER", "postgres")
-DB_PASSWORD = os.getenv("PGPASSWORD", "postgres")
-DB_SCHEMA = os.getenv("PGSCHEMA", "imobiliario")
-
-ADMIN_DB = os.getenv("ADMIN_DB", "postgres")  # DB de manutenção p/ CREATE DATABASE
-
-# Ajusta o caminho do SQL para ser relativo à raiz do projeto
 PROJECT_ROOT = Path(__file__).parent.parent
 SQL_SCHEMA_PATH = PROJECT_ROOT / os.getenv("SQL_SCHEMA_PATH", "sql/schema_auxiliar.sql")
 
-# Novos JSONs a serem carregados (caminhos relativos à raiz do projeto)
 DATA_FILES = {
     "bairros": PROJECT_ROOT / "data/bairros.json",
     "condominios": PROJECT_ROOT / "data/condominios.json",
@@ -43,10 +35,7 @@ DATA_FILES = {
 
 
 def _conn_str(dbname: str) -> str:
-    return (
-        f"dbname={dbname} user={DB_USER} password={DB_PASSWORD} "
-        f"host={DB_HOST} port={DB_PORT}"
-    )
+    return DB_CONFIG.conn_str(dbname)
 
 
 def ensure_database() -> None:
@@ -56,13 +45,13 @@ def ensure_database() -> None:
     """
     with psycopg.connect(_conn_str(ADMIN_DB), autocommit=True) as conn:
         with conn.cursor() as cur:
-            cur.execute("SELECT 1 FROM pg_database WHERE datname = %s", (DB_NAME,))
+            cur.execute("SELECT 1 FROM pg_database WHERE datname = %s", (DB_CONFIG.dbname,))
             if cur.fetchone():
-                print(f"✅ Database '{DB_NAME}' já existe.")
+                print(f"✅ Database '{DB_CONFIG.dbname}' já existe.")
                 return
-            print(f"📦 Criando database '{DB_NAME}'…")
-            cur.execute(sql.SQL("CREATE DATABASE {}").format(sql.Identifier(DB_NAME)))
-            print(f"✅ Database '{DB_NAME}' criada.")
+            print(f"📦 Criando database '{DB_CONFIG.dbname}'…")
+            cur.execute(sql.SQL("CREATE DATABASE {}").format(sql.Identifier(DB_CONFIG.dbname)))
+            print(f"✅ Database '{DB_CONFIG.dbname}' criada.")
 
 
 def ensure_schema() -> None:
@@ -70,24 +59,24 @@ def ensure_schema() -> None:
     Garante que o schema alvo exista e define o search_path para a sessão.
     Idempotente.
     """
-    with psycopg.connect(_conn_str(DB_NAME), autocommit=True) as conn:
+    with psycopg.connect(_conn_str(DB_CONFIG.dbname), autocommit=True) as conn:
         with conn.cursor() as cur:
             cur.execute(
                 "SELECT 1 FROM information_schema.schemata WHERE schema_name = %s",
-                (DB_SCHEMA,),
+                (DB_CONFIG.schema,),
             )
             if not cur.fetchone():
-                print(f"📁 Criando schema '{DB_SCHEMA}'…")
+                print(f"📁 Criando schema '{DB_CONFIG.schema}'…")
                 cur.execute(
-                    sql.SQL("CREATE SCHEMA {}").format(sql.Identifier(DB_SCHEMA))
+                    sql.SQL("CREATE SCHEMA {}").format(sql.Identifier(DB_CONFIG.schema))
                 )
-                print(f"✅ Schema '{DB_SCHEMA}' criado.")
+                print(f"✅ Schema '{DB_CONFIG.schema}' criado.")
             else:
-                print(f"✅ Schema '{DB_SCHEMA}' já existe.")
+                print(f"✅ Schema '{DB_CONFIG.schema}' já existe.")
             # define search_path padrão para a sessão atual
             cur.execute(
                 sql.SQL("SET search_path TO {}, public").format(
-                    sql.Identifier(DB_SCHEMA)
+                    sql.Identifier(DB_CONFIG.schema)
                 )
             )
 
@@ -106,13 +95,11 @@ def apply_schema(sql_path: Optional[Path] = None) -> None:
         return
 
     print(f"📑 Aplicando schema a partir de: {path}")
-    # IMPORTANTE: autocommit=True permite executar DDL múltiplos
-    with psycopg.connect(_conn_str(DB_NAME), autocommit=True) as conn:
+    with psycopg.connect(_conn_str(DB_CONFIG.dbname), autocommit=True) as conn:
         with conn.cursor() as cur:
-            # garante search_path antes de rodar o script
             cur.execute(
                 sql.SQL("SET search_path TO {}, public").format(
-                    sql.Identifier(DB_SCHEMA)
+                    sql.Identifier(DB_CONFIG.schema)
                 )
             )
             cur.execute(sql_text)
@@ -130,7 +117,6 @@ def load_json_data(file_path: Path) -> Dict[str, Any]:
     if not isinstance(data, dict) or "content" not in data:
         raise ValueError(f"Formato JSON inválido em {file_path}: esperado objeto com array 'content'")
     
-    # Mostra mais informações sobre o arquivo
     size_kb = file_path.stat().st_size / 1024
     print(f"  📄 Tamanho: {size_kb:.1f}KB")
     
@@ -156,19 +142,19 @@ def get_dependency_order() -> List[str]:
     Retorna a ordem correta de carregamento dos dados baseado nas dependências.
     """
     return [
-        "bairros",      # Depende apenas de município que já deve existir
-        "condominios",  # Independente
-        "distritos",    # Depende apenas de município
-        "logradouros",  # Depende apenas de município
-        "loteamentos",  # Depende de bairro e município
-        "secoes",       # Depende de logradouro e face
-        "planta_valores", # Pode depender de vários
-        "imoveis"       # Depende de vários (bairro, logradouro, etc)
+        "bairros",      
+        "condominios",  
+        "distritos",   
+        "logradouros", 
+        "loteamentos",  
+        "secoes",       
+        "planta_valores", 
+        "imoveis"       
     ]
 
 
 def main() -> None:
-    print(f"🔧 Host={DB_HOST}:{DB_PORT} | DB={DB_NAME} | Schema={DB_SCHEMA}")
+    print(f"🔧 Host={DB_CONFIG.host}:{DB_CONFIG.port} | DB={DB_CONFIG.dbname} | Schema={DB_CONFIG.schema}")
     
     # 1. Garantir que a estrutura do banco existe
     ensure_database()
@@ -178,7 +164,6 @@ def main() -> None:
     # 2. Validar arquivos JSON antes de começar
     validate_json_files()
     
-    # 3. O carregamento real dos dados será feito pelos loaders específicos
     print("\n⚠️  Database e schema prontos!")
     print("Use os loaders específicos para carregar os dados:")
     print("python -m app.main --json <arquivo.json>")

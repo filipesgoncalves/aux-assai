@@ -1,22 +1,15 @@
 import psycopg
 from psycopg import sql
-
-# Configurações do banco
-DB_HOST = "localhost"
-DB_PORT = 5432
-DB_NAME = "auxiliar_assai"
-DB_USER = "postgres"
-DB_PASSWORD = "tributech"
-DB_SCHEMA = "imobiliario"
+from config import DB_CONFIG
 
 def _conn_str(dbname: str) -> str:
-    return f"dbname={dbname} user={DB_USER} password={DB_PASSWORD} host={DB_HOST} port={DB_PORT}"
+    return DB_CONFIG.conn_str(dbname)
 
 # Dropar tabelas e recriar
-with psycopg.connect(_conn_str(DB_NAME), autocommit=True) as conn:
+with psycopg.connect(_conn_str(DB_CONFIG.dbname), autocommit=True) as conn:
     with conn.cursor() as cur:
         # Configurar search_path
-        cur.execute(sql.SQL("SET search_path TO {}, public").format(sql.Identifier(DB_SCHEMA)))
+        cur.execute(sql.SQL("SET search_path TO {}, public").format(sql.Identifier(DB_CONFIG.schema)))
         
         # Dropar tabelas existentes
         try:

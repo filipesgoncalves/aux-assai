@@ -102,30 +102,41 @@ def _resolve_cadastro_loader() -> Callable:
         LOG.debug("Using loader: app.loader.processar_cadastros")
         return processar_cadastros
     except ImportError:
-        # Se não funcionar, tenta outras localizações
-        candidates = [
-            ("app.loader", "processar_cadastros"),
-            ("app.loader", "load_cadastros_json"),
-            ("app.cadastro_loader", "processar_cadastros"),
-            ("app.cadastro_loader", "load_cadastros_json"),
-            ("app.loader", "run")
-        ]
+        try:
+            # Se executando de dentro da pasta app, tenta import relativo
+            from loader import processar_cadastros
+            LOG.debug("Using loader: loader.processar_cadastros (relative import)")
+            return processar_cadastros
+        except ImportError:
+            pass
+    
+    # Se não funcionar, tenta outras localizações
+    candidates = [
+        ("app.loader", "processar_cadastros"),
+        ("loader", "processar_cadastros"),  # import relativo
+        ("app.loader", "load_cadastros_json"),
+        ("loader", "load_cadastros_json"),  # import relativo
+        ("app.cadastro_loader", "processar_cadastros"),
+        ("app.cadastro_loader", "load_cadastros_json"),
+        ("app.loader", "run"),
+        ("loader", "run")  # import relativo
+    ]
 
-        for mod_name, func_name in candidates:
-            try:
-                if "." in mod_name:
-                    mod = __import__(mod_name, fromlist=[func_name])
-                else:
-                    mod = __import__(mod_name)
-                func = getattr(mod, func_name, None)
-                if callable(func):
-                    LOG.debug("Usando loader de cadastros: %s.%s", mod_name, func_name)
-                    return func  # esperado: func(session, path)
-            except Exception as e:  # pragma: no cover
-                LOG.debug("Failed to import %s.%s: %s", mod_name, func_name, str(e))
-                continue
+    for mod_name, func_name in candidates:
+        try:
+            if "." in mod_name:
+                mod = __import__(mod_name, fromlist=[func_name])
+            else:
+                mod = __import__(mod_name)
+            func = getattr(mod, func_name, None)
+            if callable(func):
+                LOG.debug("Usando loader de cadastros: %s.%s", mod_name, func_name)
+                return func  # esperado: func(session, path)
+        except Exception as e:  # pragma: no cover
+            LOG.debug("Failed to import %s.%s: %s", mod_name, func_name, str(e))
+            continue
 
-        raise ImportError(
+    raise ImportError(
             "Não foi possível localizar a função de carga de cadastros existente. "
             "Tente expor algo como 'processar_cadastros(session, path)' em app.loader "
             "ou ajuste os aliases em _resolve_cadastro_loader()."

@@ -13,12 +13,12 @@ from typing import Any, Dict, Callable
 from sqlalchemy.orm import Session
 
 # Import all specific loaders
-from app.loader_bairro import processar_cadastros as processar_bairros
-from app.loader_condominio import processar_cadastros as processar_condominios
-from app.loader_distrito import processar_cadastros as processar_distritos
-from app.loader_imovel import processar_cadastros as processar_imoveis
-from app.loader_logradouro import processar_cadastros as processar_logradouros
-from app.loader_pessoa import processar_cadastros as processar_pessoas
+from .loader_bairro import processar_cadastros as processar_bairros
+from .loader_condominio import processar_cadastros as processar_condominios
+from .loader_distrito import processar_cadastros as processar_distritos
+from .loader_imovel import processar_cadastros as processar_imoveis
+from .loader_logradouro import processar_cadastros as processar_logradouros
+from .loader_pessoa import processar_cadastros as processar_pessoas
 from .loader_loteamento import processar_cadastros as processar_loteamentos
 from .loader_secao import processar_cadastros as processar_secoes
 from .loader_plantaValor import processar_cadastros as processar_planta_valores

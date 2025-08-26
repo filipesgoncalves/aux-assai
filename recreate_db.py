@@ -1,38 +1,31 @@
 import psycopg
 from psycopg import sql
-
-# Configurações do banco
-DB_HOST = "localhost"
-DB_PORT = 5432
-DB_NAME = "auxiliar_assai"
-DB_USER = "postgres"
-DB_PASSWORD = "tributech"
-DB_SCHEMA = "imobiliario"
+from config import DB_CONFIG
 
 def _conn_str(dbname: str) -> str:
-    return f"dbname={dbname} user={DB_USER} password={DB_PASSWORD} host={DB_HOST} port={DB_PORT}"
+    return DB_CONFIG.conn_str(dbname)
 
 # Dropar tudo e recriar
 with psycopg.connect(_conn_str("postgres"), autocommit=True) as conn:
     with conn.cursor() as cur:
         try:
-            cur.execute(sql.SQL("DROP DATABASE IF EXISTS {}").format(sql.Identifier(DB_NAME)))
-            print(f"Database {DB_NAME} removida")
+            cur.execute(sql.SQL("DROP DATABASE IF EXISTS {}").format(sql.Identifier(DB_CONFIG.dbname)))
+            print(f"Database {DB_CONFIG.dbname} removida")
         except Exception as e:
             print(f"Erro ao remover database: {e}")
         
-        cur.execute(sql.SQL("CREATE DATABASE {}").format(sql.Identifier(DB_NAME)))
-        print(f"Database {DB_NAME} criada")
+        cur.execute(sql.SQL("CREATE DATABASE {}").format(sql.Identifier(DB_CONFIG.dbname)))
+        print(f"Database {DB_CONFIG.dbname} criada")
 
 # Criar schema e tabelas
-with psycopg.connect(_conn_str(DB_NAME), autocommit=True) as conn:
+with psycopg.connect(_conn_str(DB_CONFIG.dbname), autocommit=True) as conn:
     with conn.cursor() as cur:
         # Criar schema
-        cur.execute(sql.SQL("CREATE SCHEMA IF NOT EXISTS {}").format(sql.Identifier(DB_SCHEMA)))
-        print(f"Schema {DB_SCHEMA} criado")
+        cur.execute(sql.SQL("CREATE SCHEMA IF NOT EXISTS {}").format(sql.Identifier(DB_CONFIG.schema)))
+        print(f"Schema {DB_CONFIG.schema} criado")
         
         # Configurar search_path
-        cur.execute(sql.SQL("SET search_path TO {}, public").format(sql.Identifier(DB_SCHEMA)))
+        cur.execute(sql.SQL("SET search_path TO {}, public").format(sql.Identifier(DB_CONFIG.schema)))
         
         # Criar tabela município
         cur.execute("""

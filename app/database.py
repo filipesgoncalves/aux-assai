@@ -8,16 +8,20 @@ from typing import Optional
 from sqlalchemy import create_engine, text, event
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import sessionmaker
+from dotenv import load_dotenv
+
+# Carrega as variáveis do arquivo .env
+load_dotenv()
 
 
 @dataclass(frozen=True)
 class Settings:
-    host: str = os.getenv("PGHOST", "localhost")
-    port: int = int(os.getenv("PGPORT", "5432"))
-    user: str = os.getenv("PGUSER", "postgres")
-    password: str = os.getenv("PGPASSWORD", "tributech")
-    dbname: str = os.getenv("PGDATABASE", "auxiliar_assai")
-    schema: str = os.getenv("PGSCHEMA", "imobiliario")
+    host: str = os.getenv("PGHOST")
+    port: int = int(os.getenv("PGPORT"))
+    user: str = os.getenv("PGUSER")
+    password: str = os.getenv("PGPASSWORD")
+    dbname: str = os.getenv("PGDATABASE")
+    schema: str = os.getenv("PGSCHEMA")
 
     @property
     def url(self) -> str:
